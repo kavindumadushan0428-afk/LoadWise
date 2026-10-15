@@ -1,0 +1,6 @@
+{
+  "name": "LoadWise — Smart Laundry Basket 3D UX Prototype",
+  "description": "Interactive 3D simulation prototype of the LoadWise Smart Laundry Basket featuring 3-zone sorting, live weight estimation, OLED interface, rotary control, humidity alerts, and UX testing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
