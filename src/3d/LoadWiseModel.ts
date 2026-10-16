@@ -430,10 +430,11 @@ export class LoadWiseModel {
   }
 
   private buildOledDisplay(totalHeight: number, bodyDepth: number) {
-    const oledWidth = 0.62;
-    const oledHeight = 1.04;
+    const oledWidth = 0.58;
+    const oledHeight = 0.58;
     const oledZ = bodyDepth / 2 + 0.046;
-    const oledY = totalHeight - 0.98;
+    // Keep the screen between the centre bay label and the rotary control.
+    const oledY = totalHeight - 0.76;
 
     // Dark glossy glass bezel frame
     const bezelGeo = new THREE.BoxGeometry(oledWidth + 0.05, oledHeight + 0.05, 0.03);
